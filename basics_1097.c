@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
   int n, i, j, x, y;
-  int a[20][20]={};
+  int a[20][20]={0,};
 
   for(i=1; i<=19; i++) //한 줄씩 바둑판 상황 입력 받기r(i=1; i<=19; i++) //한 줄씩 바둑판 상황 입력 받기
     for(j=1; j<=19; j++)
